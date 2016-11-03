@@ -1,6 +1,6 @@
 {
   "name": "simple-panto-usage",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple usage of panto",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/pantojs/simple-panto-usage#readme",
   "devDependencies": {
     "load-panto-transformers": "^0.1.0",
-    "panto": "0.1.0-alpha.1",
+    "panto": "^0.2.0",
     "panto-transformer-copy": "^0.1.4",
     "panto-transformer-less": "^0.1.3",
     "panto-transformer-read": "^0.3.3",

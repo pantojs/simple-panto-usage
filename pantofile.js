@@ -6,7 +6,7 @@
   * 2016-09-29[09:50:22]:revised
   *
   * @author yanni4night@gmail.com
-  * @version 0.1.0
+  * @version 0.2.0
   * @since 0.1.0
   */
 'use strict';
@@ -20,6 +20,6 @@ module.exports = panto => {
         output: 'output'
     });
 
-    panto.pick('*.less').read().less().write();
-    panto.rest().copy();
+    panto.pick('*.less').tag('less').read().less().write();
+    panto.rest().tag('rest').copy();
 };
